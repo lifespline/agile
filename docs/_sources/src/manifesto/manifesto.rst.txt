@@ -5,7 +5,7 @@ The Manifesto
 Main Flow
 ---------
 
-The main flow is the sequential iteration of the states ``sleep``, ``morning-preparation``, `engage-flow <engage_flow>`, ``evening-preparation``.
+The main flow is the sequential iteration of the states ``sleep``, ``morning-preparation``, :ref:`engage-flow <engage_flow>`, ``evening-preparation``.
 
 .. image:: ../../static/img/main-flow.png
     :width: 400
