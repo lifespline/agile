@@ -30,3 +30,27 @@ Versioning and Control Flow
 .. image:: ../../static/img/versioning-and-control-flow.png
     :width: 400
     :alt: Versioning and Control Flow
+
+
+
+Reducing From Imaginary To Real
+-------------------------------
+
+.. image:: ../../static/img/realization-flow.png
+    :width: 400
+    :alt: Realization Flow
+
+.. image:: ../../static/img/scheduled-realization-flow.png
+    :width: 400
+    :alt: Scheduled realization flow
+
+.. image:: ../../static/img/reduction-and-scheduling.png
+    :width: 400
+    :alt: Scheduled realization flow
+
+Group And Individual Productivity Variation
+-------------------------------------------
+
+.. image:: ../../static/img/variation-group-individual.png
+    :width: 400
+    :alt: Realization Flow
