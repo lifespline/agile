@@ -14,4 +14,5 @@ Lifespline Agile
 
    src/manifesto
    src/contributing
+   src/pathos
    src/literature

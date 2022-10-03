@@ -11,4 +11,3 @@ Manifesto
    :caption: Contents:
 
    manifesto/manifesto
-
