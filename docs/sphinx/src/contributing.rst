@@ -12,4 +12,11 @@ Please read through the sections below to understand how to contribute to ``life
    :maxdepth: 1
    :caption: Contents:
 
-   contributing/getting_started
+   contributing/installation
+   contributing/configuration
+   contributing/usage
+   contributing/development
+   contributing/contributing
+   contributing/changelog
+   contributing/license
+   contributing/authors
