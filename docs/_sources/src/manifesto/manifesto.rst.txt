@@ -58,3 +58,14 @@ Group And Individual Productivity Variation
 .. image:: ../../static/img/variation-group-individual.png
     :width: 400
     :alt: Realization Flow
+
+.. _poc_flow:
+
+POC Flow
+--------
+
+The ``poc-flow`` is understanding a problem statement before beggining the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.
+
+.. image:: ../../static/img/poc-flow.png
+    :width: 400
+    :alt: POC Flow
