@@ -28,4 +28,4 @@ Images are contained in ``docs/sphinx/static/img/``.
 Task Runner
 -----------
 
-`invoke <https://www.pyinvoke.org/>`_ is the task runner used to build the docs.
+
