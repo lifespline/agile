@@ -59,13 +59,54 @@ Group And Individual Productivity Variation
     :width: 400
     :alt: Realization Flow
 
-.. _poc_flow:
+.. _problem_analysis_flow:
 
-POC Flow
---------
+Problem Analysis Flow
+---------------------
 
-The ``poc-flow`` is understanding a problem statement before beggining the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.
+The ``problem-analysis-flow`` is understanding a problem statement before beginning the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.
 
-.. image:: ../../static/img/poc-flow.png
+.. image:: ../../static/img/problem-analysis-flow.png
     :width: 400
-    :alt: POC Flow
+    :alt: Problem Analysis Flow
+
+.. _backlog:
+
+Backlog
+~~~~~~~
+
+Track the ``item``.
+
+.. _prob_statement:
+
+Problem Statement
+~~~~~~~~~~~~~~~~~
+
+Add problem statement, or *that which seems to best describe* the ``item``, without having any consideration about what might solve the problem. The problem statement is a set of problem statements. Each set maps to a ``product feature``. The problem statement maps to a ``product`` that satisfies the problem statement.
+
+.. _prob_analysis:
+
+Problem/Solution Analysis
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Analyse the problem from within the framework of a possible solution (we assume **a problem can only be analysed from whithin the framework of a possible solution**). The analysis outputs problem statement behaviours that satisfy the problem statements.
+
+.. _behaviour:
+
+Behaviour
+~~~~~~~~~
+
+Discuss what defines a behaviour that provides a solution to the :ref:`problem statements <prob_statement>`. This typically requires that the problem statement translates to **behaviour requirements** in the :ref:`problem analysis <prob_analysis>`. These requirements are **behaviours** that the solution must show. The requirements should also include **behaviour verification tests**. The behaviours and the behaviour verification tests should be written in a mid-level language for automation purposes.
+
+Typically the behaviours aren't all necessary, some of them are nice-to-haves, it's crucial to identify which behaviours are closest to the problem statement so that the **value throughput** is always high.
+
+When you're specifying the problem statements behaviours, iterate through the specification and remove/move behaviours that don't map to the problem statement specifically. Each problem statement maps to a ``product feature`` and each behaviour maps to a ``product feature behaviour`` or a ``user story``.
+
+Having finalised all the problem statements' behaviours it is possible to analyse the :ref:`architecture for a tecnhical solution <architecture>`.
+
+.. _architecture:
+
+Architecture
+~~~~~~~~~~~~
+
+Having finalised all the problem statements' behaviours it is possible to analyse the architecture for a tecnhical solution.

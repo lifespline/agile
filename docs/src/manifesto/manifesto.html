@@ -236,10 +236,33 @@
 <h2>Group And Individual Productivity Variation<a class="headerlink" href="#group-and-individual-productivity-variation" title="Permalink to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../../_images/variation-group-individual.png"><img alt="Realization Flow" src="../../_images/variation-group-individual.png" style="width: 400px;" /></a>
 </section>
-<section id="poc-flow">
-<span id="id3"></span><h2>POC Flow<a class="headerlink" href="#poc-flow" title="Permalink to this heading">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">poc-flow</span></code> is understanding a problem statement before beggining the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.</p>
-<a class="reference internal image-reference" href="../../_images/poc-flow.png"><img alt="POC Flow" src="../../_images/poc-flow.png" style="width: 400px;" /></a>
+<section id="problem-analysis-flow">
+<span id="id3"></span><h2>Problem Analysis Flow<a class="headerlink" href="#problem-analysis-flow" title="Permalink to this heading">#</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">problem-analysis-flow</span></code> is understanding a problem statement before beginning the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.</p>
+<a class="reference internal image-reference" href="../../_images/problem-analysis-flow.png"><img alt="Problem Analysis Flow" src="../../_images/problem-analysis-flow.png" style="width: 400px;" /></a>
+<section id="id4">
+<span id="id5"></span><h3>Backlog<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<p>Track the <code class="docutils literal notranslate"><span class="pre">item</span></code>.</p>
+</section>
+<section id="problem-statement">
+<span id="prob-statement"></span><h3>Problem Statement<a class="headerlink" href="#problem-statement" title="Permalink to this heading">#</a></h3>
+<p>Add problem statement, or <em>that which seems to best describe</em> the <code class="docutils literal notranslate"><span class="pre">item</span></code>, without having any consideration about what might solve the problem. The problem statement is a set of problem statements. Each set maps to a <code class="docutils literal notranslate"><span class="pre">product</span> <span class="pre">feature</span></code>. The problem statement maps to a <code class="docutils literal notranslate"><span class="pre">product</span></code> that satisfies the problem statement.</p>
+</section>
+<section id="problem-solution-analysis">
+<span id="prob-analysis"></span><h3>Problem/Solution Analysis<a class="headerlink" href="#problem-solution-analysis" title="Permalink to this heading">#</a></h3>
+<p>Analyse the problem from within the framework of a possible solution (we assume <strong>a problem can only be analysed from whithin the framework of a possible solution</strong>). The analysis outputs problem statement behaviours that satisfy the problem statements.</p>
+</section>
+<section id="behaviour">
+<span id="id6"></span><h3>Behaviour<a class="headerlink" href="#behaviour" title="Permalink to this heading">#</a></h3>
+<p>Discuss what defines a behaviour that provides a solution to the <a class="reference internal" href="#prob-statement"><span class="std std-ref">problem statements</span></a>. This typically requires that the problem statement translates to <strong>behaviour requirements</strong> in the <a class="reference internal" href="#prob-analysis"><span class="std std-ref">problem analysis</span></a>. These requirements are <strong>behaviours</strong> that the solution must show. The requirements should also include <strong>behaviour verification tests</strong>. The behaviours and the behaviour verification tests should be written in a mid-level language for automation purposes.</p>
+<p>Typically the behaviours aren’t all necessary, some of them are nice-to-haves, it’s crucial to identify which behaviours are closest to the problem statement so that the <strong>value throughput</strong> is always high.</p>
+<p>When you’re specifying the problem statements behaviours, iterate through the specification and remove/move behaviours that don’t map to the problem statement specifically. Each problem statement maps to a <code class="docutils literal notranslate"><span class="pre">product</span> <span class="pre">feature</span></code> and each behaviour maps to a <code class="docutils literal notranslate"><span class="pre">product</span> <span class="pre">feature</span> <span class="pre">behaviour</span></code> or a <code class="docutils literal notranslate"><span class="pre">user</span> <span class="pre">story</span></code>.</p>
+<p>Having finalised all the problem statements’ behaviours it is possible to analyse the <a class="reference internal" href="#architecture"><span class="std std-ref">architecture for a tecnhical solution</span></a>.</p>
+</section>
+<section id="architecture">
+<span id="id7"></span><h3>Architecture<a class="headerlink" href="#architecture" title="Permalink to this heading">#</a></h3>
+<p>Having finalised all the problem statements’ behaviours it is possible to analyse the architecture for a tecnhical solution.</p>
+</section>
 </section>
 </section>
 
@@ -306,7 +329,14 @@
 <li><a class="reference internal" href="#versioning-and-control-flow">Versioning and Control Flow</a></li>
 <li><a class="reference internal" href="#reducing-from-imaginary-to-real">Reducing From Imaginary To Real</a></li>
 <li><a class="reference internal" href="#group-and-individual-productivity-variation">Group And Individual Productivity Variation</a></li>
-<li><a class="reference internal" href="#poc-flow">POC Flow</a></li>
+<li><a class="reference internal" href="#problem-analysis-flow">Problem Analysis Flow</a><ul>
+<li><a class="reference internal" href="#id4">Backlog</a></li>
+<li><a class="reference internal" href="#problem-statement">Problem Statement</a></li>
+<li><a class="reference internal" href="#problem-solution-analysis">Problem/Solution Analysis</a></li>
+<li><a class="reference internal" href="#behaviour">Behaviour</a></li>
+<li><a class="reference internal" href="#architecture">Architecture</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
