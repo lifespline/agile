@@ -139,9 +139,9 @@ Each problem statement maps to a ``product feature`` and each behaviour maps to 
 
 .. note::
 
-    It's important to finish the behaviour specification for all the problem statements before starting to think of how to implement the overall solution to ensure the solution will not have to be changed dramatically to satisfy a an unforeseen behaviour specification.
+    It's important to **finish the behaviour and behaviour test specifications for all the problem statements (features)** before starting to think of the architecture for the overall solution. This approach protects from having to redesign the architecture from feature to feature (as these may vary in what they require from the architecture).
     
-    Because this is however bound to happen, we're trying to minimize it's impact on the value throughput.
+    This is nevertheless bound to happen, the approach simply tries to minimize it and maximizing value throughput.
 
 Having finalized all the problem statements' behaviours it is possible to analyse the :ref:`architecture for a tecnhical solution <architecture>`.
 

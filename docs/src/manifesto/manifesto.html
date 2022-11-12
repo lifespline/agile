@@ -271,24 +271,28 @@
 <p>With the conceptual solution from the <a class="reference internal" href="#prob-analysis"><span class="std std-ref">problem analysis</span></a>, specify the behaviours that will satisfy each problem statement.</p>
 <div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>Behaviours: &lt;Problem Statement 1&gt;
 ┣╸ BEHAVIOUR 1: SPEC
+┣╸ BEHAVIOUR 1: TEST SPEC
 ┣╸ ...
-┗╸ BEHAVIOUR N: SPEC
+┣╸ BEHAVIOUR N: SPEC
+┗╸ BEHAVIOUR N: TEST SPEC
 
 <span class="cp">...</span>
 
 Behaviours: &lt;Problem Statement M&gt;
 ┣╸ BEHAVIOUR 1: SPEC
+┣╸ BEHAVIOUR 1: TEST SPEC
 ┣╸ ...
-┗╸ BEHAVIOUR P: SPEC
+┣╸ BEHAVIOUR P: SPEC
+┗╸ BEHAVIOUR P: TEST SPEC
 </pre></div>
 </div>
-<p>The problem statement maps to <strong>behaviour specifications</strong> and the corresponding <strong>behaviour verification tests</strong>. The behaviours and the behaviour verification tests should be written in a mid-level language for automation purposes.</p>
+<p>The problem statement maps to <strong>behaviour specifications</strong> and the corresponding <strong>behaviour verification tests</strong>. The behaviours and the behaviour verification tests should be written in a mid-level language for automation purposes. These tests are not to be mistaken with the implementation unit tests, these are behavioural tests and specify what the behaviour must guarantee.</p>
 <p>Typically the behaviour specifications aren’t all necessary, it’s crucial to identify which behaviours are closest to the problem statement so that the <strong>value throughput</strong> is always high. Add the unnecessary behaviour specs to tackle them at a later point in time.</p>
 <p>Each problem statement maps to a <code class="docutils literal notranslate"><span class="pre">product</span> <span class="pre">feature</span></code> and each behaviour maps to a <code class="docutils literal notranslate"><span class="pre">product</span> <span class="pre">feature</span> <span class="pre">behaviour</span></code> or a <code class="docutils literal notranslate"><span class="pre">user</span> <span class="pre">story</span></code>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>It’s important to finish the behaviour specification for all the problem statements before starting to think of how to implement the overall solution to ensure the solution will not have to be changed dramatically to satisfy a an unforeseen behaviour specification.</p>
-<p>Because this is however bound to happen, we’re trying to minimize it’s impact on the value throughput.</p>
+<p>It’s important to <strong>finish the behaviour and behaviour test specifications for all the problem statements (features)</strong> before starting to think of the architecture for the overall solution. This approach protects from having to redesign the architecture from feature to feature (as these may vary in what they require from the architecture).</p>
+<p>This is nevertheless bound to happen, the approach simply tries to minimize it and maximizing value throughput.</p>
 </div>
 <p>Having finalized all the problem statements’ behaviours it is possible to analyse the <a class="reference internal" href="#architecture"><span class="std std-ref">architecture for a tecnhical solution</span></a>.</p>
 </section>
