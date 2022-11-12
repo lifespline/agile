@@ -117,17 +117,21 @@ With the conceptual solution from the :ref:`problem analysis <prob_analysis>`, s
 
    Behaviours: <Problem Statement 1>
    ┣╸ BEHAVIOUR 1: SPEC
+   ┣╸ BEHAVIOUR 1: TEST SPEC
    ┣╸ ...
-   ┗╸ BEHAVIOUR N: SPEC
+   ┣╸ BEHAVIOUR N: SPEC
+   ┗╸ BEHAVIOUR N: TEST SPEC
 
    ...
 
    Behaviours: <Problem Statement M>
    ┣╸ BEHAVIOUR 1: SPEC
+   ┣╸ BEHAVIOUR 1: TEST SPEC
    ┣╸ ...
-   ┗╸ BEHAVIOUR P: SPEC
+   ┣╸ BEHAVIOUR P: SPEC
+   ┗╸ BEHAVIOUR P: TEST SPEC
 
-The problem statement maps to **behaviour specifications** and the corresponding **behaviour verification tests**. The behaviours and the behaviour verification tests should be written in a mid-level language for automation purposes.
+The problem statement maps to **behaviour specifications** and the corresponding **behaviour verification tests**. The behaviours and the behaviour verification tests should be written in a mid-level language for automation purposes. These tests are not to be mistaken with the implementation unit tests, these are behavioural tests and specify what the behaviour must guarantee.
 
 Typically the behaviour specifications aren't all necessary, it's crucial to identify which behaviours are closest to the problem statement so that the **value throughput** is always high. Add the unnecessary behaviour specs to tackle them at a later point in time.
 
