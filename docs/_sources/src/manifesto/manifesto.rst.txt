@@ -116,20 +116,30 @@ With the conceptual solution from the :ref:`problem analysis <prob_analysis>`, s
 .. code-block:: rst
 
    Behaviours: <Problem Statement 1>
-   ┣╸ BEHAVIOUR 1: SPEC
-   ┣╸ BEHAVIOUR 1: TEST SPEC
+   ┃
+   ┣╸ BEHAVIOUR 1
+   ┃  ┃
+   ┃  ┣╸SPEC
+   ┃  ┗╸TEST SPEC
    ┣╸ ...
-   ┣╸ BEHAVIOUR N: SPEC
-   ┗╸ BEHAVIOUR N: TEST SPEC
+   ┗╸ BEHAVIOUR N
+      ┃
+      ┣╸SPEC
+      ┗╸TEST SPEC
 
    ...
 
    Behaviours: <Problem Statement M>
-   ┣╸ BEHAVIOUR 1: SPEC
-   ┣╸ BEHAVIOUR 1: TEST SPEC
+   ┃
+   ┣╸ BEHAVIOUR N + 1
+   ┃  ┃
+   ┃  ┣╸SPEC
+   ┃  ┗╸TEST SPEC
    ┣╸ ...
-   ┣╸ BEHAVIOUR P: SPEC
-   ┗╸ BEHAVIOUR P: TEST SPEC
+   ┗╸ BEHAVIOUR P
+      ┃
+      ┣╸SPEC
+      ┗╸TEST SPEC
 
 The problem statement maps to **behaviour specifications** and the corresponding **behaviour verification tests**. The behaviours and the behaviour verification tests should be written in a mid-level language for automation purposes. These tests are not to be mistaken with the implementation unit tests, these are behavioural tests and specify what the behaviour must guarantee.
 
@@ -145,9 +155,25 @@ Each problem statement maps to a ``product feature`` and each behaviour maps to 
 
 Having finalized all the problem statements' behaviours it is possible to analyse the :ref:`architecture for a tecnhical solution <architecture>`.
 
-.. _architecture:
+.. _technical_requirements:
 
-Architecture
-~~~~~~~~~~~~
+Technical Requirements
+~~~~~~~~~~~~~~~~~~~~~~
 
-Having finalised all the problem statements' behaviours it is possible to analyse the architecture for a tecnhical solution.
+Gather information from all the behaviour and behaviour test specifications and consider the technical requirements of these specifications.
+
+.. note::
+
+    The specificity of the **technical requirements** is a function of the specificity of the **behaviour specifications**, *i.e.*, the **technical requirements** are to be abstracted as much as possible from their implementation.
+
+    *Example*: If the **behaviour specification** suggests that the data layer will hold different file types, then the **technical requirement** should detail a technology that accommodates for different file types, otherwise it should abstain from specifying the data persistency technology.
+
+.. _architecture_components:
+
+Architecture Components
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _architecture_technologies:
+
+Architecture Technologies
+~~~~~~~~~~~~~~~~~~~~~~~~~

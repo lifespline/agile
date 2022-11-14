@@ -1,0 +1,127 @@
+<mxfile host="65bd71144e">
+    <diagram id="kMwoFzIH3iVEOcsCu21u" name="Page-1">
+        <mxGraphModel dx="3802" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#1A1A1A;" vertex="1" parent="1">
+                    <mxGeometry x="-240" y="150" width="910" height="770" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;fontColor=#CC00CC;strokeColor=#E6E6E6;" edge="1" parent="1" source="2" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="problem statement" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="260" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="3" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="behaviour" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="spec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="test spec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" source="10" target="13" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="problem statement" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" source="13" target="14" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" source="13" target="15" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="behaviour" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="spec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="test spec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="16" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="16" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="problem statement" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#E6E6E6;" edge="1" parent="1" source="19" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="19" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="19" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="19" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=none;html=1;fontColor=#CC00CC;strokeColor=#E6E6E6;" edge="1" parent="1" source="19" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;html=1;fontColor=#CC00CC;strokeColor=#E6E6E6;" edge="1" parent="1" source="19" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="technical&lt;br&gt;requirements" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="24" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="architecture&lt;br&gt;components" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="720" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" parent="1" source="26" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="architecture&lt;br&gt;technologies" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="830" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="what are the components that can satisfy the technical requirements?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC00CC;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="717.5" width="95" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="what technologies should be employed for the components?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC00CC;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="827.5" width="95" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="gets information from all the behaviour specs to be as general as possible" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC00CC;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="597.5" width="95" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="behaviour" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="-125" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="test spec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="-50" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" source="32" target="33" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;strokeColor=#E6E6E6;" edge="1" source="32" target="36" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="spec" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#333333;fontColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="-200" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;b&gt;patiently &lt;/b&gt;gather all the &lt;b&gt;behaviours&lt;/b&gt;, &lt;b&gt;behaviours specs&lt;/b&gt; and &lt;b&gt;behaviour test specs&lt;/b&gt; before starting the &lt;b&gt;technical requirements&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#CC00CC;" vertex="1" parent="1">
+                    <mxGeometry x="285" y="353.75" width="150" height="92.5" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

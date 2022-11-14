@@ -270,20 +270,30 @@
 <span id="id6"></span><h3>Behaviour<a class="headerlink" href="#behaviour" title="Permalink to this heading">#</a></h3>
 <p>With the conceptual solution from the <a class="reference internal" href="#prob-analysis"><span class="std std-ref">problem analysis</span></a>, specify the behaviours that will satisfy each problem statement.</p>
 <div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>Behaviours: &lt;Problem Statement 1&gt;
-┣╸ BEHAVIOUR 1: SPEC
-┣╸ BEHAVIOUR 1: TEST SPEC
+┃
+┣╸ BEHAVIOUR 1
+┃  ┃
+┃  ┣╸SPEC
+┃  ┗╸TEST SPEC
 ┣╸ ...
-┣╸ BEHAVIOUR N: SPEC
-┗╸ BEHAVIOUR N: TEST SPEC
+┗╸ BEHAVIOUR N
+   ┃
+   ┣╸SPEC
+   ┗╸TEST SPEC
 
 <span class="cp">...</span>
 
 Behaviours: &lt;Problem Statement M&gt;
-┣╸ BEHAVIOUR 1: SPEC
-┣╸ BEHAVIOUR 1: TEST SPEC
+┃
+┣╸ BEHAVIOUR N + 1
+┃  ┃
+┃  ┣╸SPEC
+┃  ┗╸TEST SPEC
 ┣╸ ...
-┣╸ BEHAVIOUR P: SPEC
-┗╸ BEHAVIOUR P: TEST SPEC
+┗╸ BEHAVIOUR P
+   ┃
+   ┣╸SPEC
+   ┗╸TEST SPEC
 </pre></div>
 </div>
 <p>The problem statement maps to <strong>behaviour specifications</strong> and the corresponding <strong>behaviour verification tests</strong>. The behaviours and the behaviour verification tests should be written in a mid-level language for automation purposes. These tests are not to be mistaken with the implementation unit tests, these are behavioural tests and specify what the behaviour must guarantee.</p>
@@ -294,11 +304,22 @@ Behaviours: &lt;Problem Statement M&gt;
 <p>It’s important to <strong>finish the behaviour and behaviour test specifications for all the problem statements (features)</strong> before starting to think of the architecture for the overall solution. This approach protects from having to redesign the architecture from feature to feature (as these may vary in what they require from the architecture).</p>
 <p>This is nevertheless bound to happen, the approach simply tries to minimize it and maximizing value throughput.</p>
 </div>
-<p>Having finalized all the problem statements’ behaviours it is possible to analyse the <a class="reference internal" href="#architecture"><span class="std std-ref">architecture for a tecnhical solution</span></a>.</p>
+<p>Having finalized all the problem statements’ behaviours it is possible to analyse the <span class="xref std std-ref">architecture for a tecnhical solution</span>.</p>
 </section>
-<section id="architecture">
-<span id="id7"></span><h3>Architecture<a class="headerlink" href="#architecture" title="Permalink to this heading">#</a></h3>
-<p>Having finalised all the problem statements’ behaviours it is possible to analyse the architecture for a tecnhical solution.</p>
+<section id="technical-requirements">
+<span id="id7"></span><h3>Technical Requirements<a class="headerlink" href="#technical-requirements" title="Permalink to this heading">#</a></h3>
+<p>Gather information from all the behaviour and behaviour test specifications and consider the technical requirements of these specifications.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The specificity of the <strong>technical requirements</strong> is a function of the specificity of the <strong>behaviour specifications</strong>, <em>i.e.</em>, the <strong>technical requirements</strong> are to be abstracted as much as possible from their implementation.</p>
+<p><em>Example</em>: If the <strong>behaviour specification</strong> suggests that the data layer will hold different file types, then the <strong>technical requirement</strong> should detail a technology that accommodates for different file types, otherwise it should abstain from specifying the data persistency technology.</p>
+</div>
+</section>
+<section id="architecture-components">
+<span id="id8"></span><h3>Architecture Components<a class="headerlink" href="#architecture-components" title="Permalink to this heading">#</a></h3>
+</section>
+<section id="architecture-technologies">
+<span id="id9"></span><h3>Architecture Technologies<a class="headerlink" href="#architecture-technologies" title="Permalink to this heading">#</a></h3>
 </section>
 </section>
 </section>
@@ -371,7 +392,9 @@ Behaviours: &lt;Problem Statement M&gt;
 <li><a class="reference internal" href="#problem-statement">Problem Statement</a></li>
 <li><a class="reference internal" href="#problem-solution-analysis">Problem/Solution Analysis</a></li>
 <li><a class="reference internal" href="#behaviour">Behaviour</a></li>
-<li><a class="reference internal" href="#architecture">Architecture</a></li>
+<li><a class="reference internal" href="#technical-requirements">Technical Requirements</a></li>
+<li><a class="reference internal" href="#architecture-components">Architecture Components</a></li>
+<li><a class="reference internal" href="#architecture-technologies">Architecture Technologies</a></li>
 </ul>
 </li>
 </ul>
