@@ -67,7 +67,7 @@ Problem Analysis Flow
 The ``problem-analysis-flow`` is understanding a problem statement before beginning the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.
 
 .. image:: ../../static/img/problem-analysis-flow.png
-    :width: 400
+    :width: 800
     :alt: Problem Analysis Flow
 
 .. _backlog:
