@@ -236,12 +236,13 @@
 <h2>Group And Individual Productivity Variation<a class="headerlink" href="#group-and-individual-productivity-variation" title="Permalink to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../../_images/variation-group-individual.png"><img alt="Realization Flow" src="../../_images/variation-group-individual.png" style="width: 400px;" /></a>
 </section>
-<section id="problem-analysis-flow">
-<span id="id3"></span><h2>Problem Analysis Flow<a class="headerlink" href="#problem-analysis-flow" title="Permalink to this heading">#</a></h2>
+<section id="development-flow">
+<span id="problem-analysis-flow"></span><h2>Development Flow<a class="headerlink" href="#development-flow" title="Permalink to this heading">#</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">problem-analysis-flow</span></code> is understanding a problem statement before beginning the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.</p>
 <a class="reference internal image-reference" href="../../_images/problem-analysis-flow.png"><img alt="Problem Analysis Flow" src="../../_images/problem-analysis-flow.png" style="width: 800px;" /></a>
-<section id="id4">
-<span id="id5"></span><h3>Backlog<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../../_images/full-dev-flow.png"><img alt="Full Dev Flow" src="../../_images/full-dev-flow.png" style="width: 800px;" /></a>
+<section id="id3">
+<span id="id4"></span><h3>Backlog<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <p>Track the <code class="docutils literal notranslate"><span class="pre">item</span></code>.</p>
 </section>
 <section id="problem-statement">
@@ -267,7 +268,7 @@
 </div>
 </section>
 <section id="behaviour">
-<span id="id6"></span><h3>Behaviour<a class="headerlink" href="#behaviour" title="Permalink to this heading">#</a></h3>
+<span id="id5"></span><h3>Behaviour<a class="headerlink" href="#behaviour" title="Permalink to this heading">#</a></h3>
 <p>With the conceptual solution from the <a class="reference internal" href="#prob-analysis"><span class="std std-ref">problem analysis</span></a>, specify the behaviours that will satisfy each problem statement.</p>
 <div class="highlight-rst notranslate"><div class="highlight"><pre><span></span>Behaviours: &lt;Problem Statement 1&gt;
 ┃
@@ -304,22 +305,37 @@ Behaviours: &lt;Problem Statement M&gt;
 <p>It’s important to <strong>finish the behaviour and behaviour test specifications for all the problem statements (features)</strong> before starting to think of the architecture for the overall solution. This approach protects from having to redesign the architecture from feature to feature (as these may vary in what they require from the architecture).</p>
 <p>This is nevertheless bound to happen, the approach simply tries to minimize it and maximizing value throughput.</p>
 </div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The behaviours hierarchy establish a correspondence between the behaviour and the problem statement. It’s important to visualize which behaviour satisfy which problem statement, and which technical requirements satisfy which behaviours, <em>etc.</em>, all the way down to <strong>who wrote which line of code when: 100% transparency</strong>.</p>
+<p>TODO: automate</p>
+</div>
 <p>Having finalized all the problem statements’ behaviours it is possible to analyse the <span class="xref std std-ref">architecture for a tecnhical solution</span>.</p>
 </section>
 <section id="technical-requirements">
-<span id="id7"></span><h3>Technical Requirements<a class="headerlink" href="#technical-requirements" title="Permalink to this heading">#</a></h3>
-<p>Gather information from all the <strong>behaviour</strong> and <strong>behaviour test specifications</strong> from all the <strong>problem statements</strong> and consider the <strong>technical requirements</strong> of these specifications.</p>
+<span id="id6"></span><h3>Technical Requirements<a class="headerlink" href="#technical-requirements" title="Permalink to this heading">#</a></h3>
+<p>Gather information from all the <strong>behaviour</strong> and <strong>behaviour test specifications</strong> from all the <strong>problem statements</strong> and consider the <strong>technical requirements</strong> of these specifications, establishing a correspondence (TODO: automate this process).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The specificity of the <strong>technical requirements</strong> is a function of the specificity of the <strong>behaviour specifications</strong>, <em>i.e.</em>, the <strong>technical requirements</strong> are to be abstracted as much as possible from their implementation.</p>
+<p><em>Example</em>: If the <strong>behaviour specification</strong> suggests that the data layer will hold different file types, then the <strong>technical requirement</strong> should detail a technology that accommodates for different file types, otherwise it should abstain from specifying the data persistency technology.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The technical requirements hierarchy establish a correspondence between the technical requirements and the behaviour. It’s important to visualize which technical requirements satisfy behaviour satisfy which problem statement, and which technical requirements satisfy which behaviours, <em>etc.</em>, all the way down to <strong>who wrote which line of code when: 100% transparency</strong>.</p>
+</div>
+</section>
+<section id="architecture-components">
+<span id="id7"></span><h3>Architecture Components<a class="headerlink" href="#architecture-components" title="Permalink to this heading">#</a></h3>
+<p>Gather information from all the <strong>technical requirements</strong> and consider the <strong>architecture components</strong> that answer all of them, establishing a correspondence (TODO: automate this process).</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>The specificity of the <strong>technical requirements</strong> is a function of the specificity of the <strong>behaviour specifications</strong>, <em>i.e.</em>, the <strong>technical requirements</strong> are to be abstracted as much as possible from their implementation.</p>
 <p><em>Example</em>: If the <strong>behaviour specification</strong> suggests that the data layer will hold different file types, then the <strong>technical requirement</strong> should detail a technology that accommodates for different file types, otherwise it should abstain from specifying the data persistency technology.</p>
 </div>
 </section>
-<section id="architecture-components">
-<span id="id8"></span><h3>Architecture Components<a class="headerlink" href="#architecture-components" title="Permalink to this heading">#</a></h3>
-</section>
 <section id="architecture-technologies">
-<span id="id9"></span><h3>Architecture Technologies<a class="headerlink" href="#architecture-technologies" title="Permalink to this heading">#</a></h3>
+<span id="id8"></span><h3>Architecture Technologies<a class="headerlink" href="#architecture-technologies" title="Permalink to this heading">#</a></h3>
 </section>
 </section>
 </section>
@@ -387,8 +403,8 @@ Behaviours: &lt;Problem Statement M&gt;
 <li><a class="reference internal" href="#versioning-and-control-flow">Versioning and Control Flow</a></li>
 <li><a class="reference internal" href="#reducing-from-imaginary-to-real">Reducing From Imaginary To Real</a></li>
 <li><a class="reference internal" href="#group-and-individual-productivity-variation">Group And Individual Productivity Variation</a></li>
-<li><a class="reference internal" href="#problem-analysis-flow">Problem Analysis Flow</a><ul>
-<li><a class="reference internal" href="#id4">Backlog</a></li>
+<li><a class="reference internal" href="#development-flow">Development Flow</a><ul>
+<li><a class="reference internal" href="#id3">Backlog</a></li>
 <li><a class="reference internal" href="#problem-statement">Problem Statement</a></li>
 <li><a class="reference internal" href="#problem-solution-analysis">Problem/Solution Analysis</a></li>
 <li><a class="reference internal" href="#behaviour">Behaviour</a></li>

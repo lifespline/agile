@@ -61,14 +61,18 @@ Group And Individual Productivity Variation
 
 .. _problem_analysis_flow:
 
-Problem Analysis Flow
----------------------
+Development Flow
+----------------
 
 The ``problem-analysis-flow`` is understanding a problem statement before beginning the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.
 
 .. image:: ../../static/img/problem-analysis-flow.png
     :width: 800
     :alt: Problem Analysis Flow
+
+.. image:: ../../static/img/full-dev-flow.png
+    :width: 800
+    :alt: Full Dev Flow
 
 .. _backlog:
 
@@ -153,6 +157,12 @@ Each problem statement maps to a ``product feature`` and each behaviour maps to 
     
     This is nevertheless bound to happen, the approach simply tries to minimize it and maximizing value throughput.
 
+.. note::
+
+    The behaviours hierarchy establish a correspondence between the behaviour and the problem statement. It's important to visualize which behaviour satisfy which problem statement, and which technical requirements satisfy which behaviours, *etc.*, all the way down to **who wrote which line of code when: 100% transparency**.
+
+    TODO: automate
+
 Having finalized all the problem statements' behaviours it is possible to analyse the :ref:`architecture for a tecnhical solution <architecture>`.
 
 .. _technical_requirements:
@@ -160,7 +170,7 @@ Having finalized all the problem statements' behaviours it is possible to analys
 Technical Requirements
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Gather information from all the **behaviour** and **behaviour test specifications** from all the **problem statements** and consider the **technical requirements** of these specifications.
+Gather information from all the **behaviour** and **behaviour test specifications** from all the **problem statements** and consider the **technical requirements** of these specifications, establishing a correspondence (TODO: automate this process).
 
 .. note::
 
@@ -168,10 +178,22 @@ Gather information from all the **behaviour** and **behaviour test specification
 
     *Example*: If the **behaviour specification** suggests that the data layer will hold different file types, then the **technical requirement** should detail a technology that accommodates for different file types, otherwise it should abstain from specifying the data persistency technology.
 
+.. note::
+
+    The technical requirements hierarchy establish a correspondence between the technical requirements and the behaviour. It's important to visualize which technical requirements satisfy behaviour satisfy which problem statement, and which technical requirements satisfy which behaviours, *etc.*, all the way down to **who wrote which line of code when: 100% transparency**.
+
 .. _architecture_components:
 
 Architecture Components
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+Gather information from all the **technical requirements** and consider the **architecture components** that answer all of them, establishing a correspondence (TODO: automate this process).
+
+.. note::
+
+    The specificity of the **technical requirements** is a function of the specificity of the **behaviour specifications**, *i.e.*, the **technical requirements** are to be abstracted as much as possible from their implementation.
+
+    *Example*: If the **behaviour specification** suggests that the data layer will hold different file types, then the **technical requirement** should detail a technology that accommodates for different file types, otherwise it should abstain from specifying the data persistency technology.
 
 .. _architecture_technologies:
 
