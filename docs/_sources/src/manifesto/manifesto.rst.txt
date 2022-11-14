@@ -160,7 +160,7 @@ Having finalized all the problem statements' behaviours it is possible to analys
 Technical Requirements
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Gather information from all the behaviour and behaviour test specifications and consider the technical requirements of these specifications.
+Gather information from all the **behaviour** and **behaviour test specifications** from all the **problem statements** and consider the **technical requirements** of these specifications.
 
 .. note::
 
