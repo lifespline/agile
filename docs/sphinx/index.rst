@@ -13,6 +13,7 @@ Lifespline Agile
    :caption: Contents:
 
    src/manifesto
+   src/development_flow
    src/contributing
    src/pathos
    src/literature
