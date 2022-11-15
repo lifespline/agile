@@ -12,5 +12,16 @@ The sections below show the ``lifespline/agile`` development flow step: Problem 
    :maxdepth: 1
    :caption: Contents:
 
-   problem_analysis/stub.rst
+   problem_analysis/problem_statement
+   problem_analysis/problem_solution_analysis
+   problem_analysis/behaviour_analysis
 
+The ``problem-analysis-flow`` is understanding a problem statement before beginning the development of a solution. This step is very important because often the problem statement requires iterations of analysis before the problem statement is specified sufficiently in order to be tackled.
+
+.. image:: ../../static/img/problem-analysis-flow.png
+    :width: 800
+    :alt: Problem Analysis Flow
+
+.. image:: ../../static/img/full-dev-flow.png
+    :width: 800
+    :alt: Full Dev Flow

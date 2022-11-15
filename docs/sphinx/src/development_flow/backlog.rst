@@ -6,4 +6,4 @@
 Backlog
 =======
 
-The sections below show the ``lifespline/agile`` development flow step: Backlog.
+Track the ``item``.
