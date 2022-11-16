@@ -6,7 +6,7 @@
 Problem/Solution Analysis
 =========================
 
-If the :ref:`problem statement <prob_statement>` consists of multiple problem statements, **there is some underlying problem that can be analyzed from within the framework of a possible solution to all the problem statements** (we assume a problem can only be analyzed from within the framework of a possible solution). The analysis outputs a generic solution that will satisfy all the problem statement.
+If the problem statement consists of multiple problem statements, **there is some underlying problem that can be analyzed from within the framework of a possible solution to all the problem statements** (we assume a problem can only be analyzed from within the framework of a possible solution). The analysis outputs a generic solution that will satisfy all the problem statement.
 
 .. code-block:: rst
 

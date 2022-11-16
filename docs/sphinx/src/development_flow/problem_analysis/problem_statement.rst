@@ -6,4 +6,6 @@
 Problem Statement
 =================
 
-Add problem statement, or *that which seems to best describe* the ``item``, without having any consideration about what might solve the problem. The problem statement is a set of problem statements. Each set maps to a ``product feature``. The problem statement maps to a ``product`` that satisfies the problem statement.
+The problem statement is *that which best describes* the ``item``, without taking into consideration what might help solving the problem. The problem statement can also be defined by a set of problem statements.
+
+Each set maps to a ``product feature``. The problem statement maps to a ``product`` that satisfies the problem statement.
