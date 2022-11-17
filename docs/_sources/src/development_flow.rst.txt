@@ -12,6 +12,7 @@ The sections below show the ``lifespline/agile`` development flow.
    :maxdepth: 1
    :caption: Contents:
 
+   development_flow/sleep
    development_flow/home
    development_flow/backlog
    development_flow/problem_analysis
