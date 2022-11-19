@@ -7,3 +7,7 @@ Home
 ====
 
 The sections below show the ``lifespline/agile`` development flow step: Home.
+
+*Don't be the best around everyone around and for everyone around you in a chosen activity, be brilliantly better, inspiring, trustworthy. Your activity is technology. Recognition, helping, performance, creativity and power - the definition of meaning.*
+
+*Make software development a brilliant activity like surgery or space travelling.*
